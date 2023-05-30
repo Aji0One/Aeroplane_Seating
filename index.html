@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./icons8-airplane-take-off-26.png">
+    <link rel="stylesheet" href="style.css">
+    <title>APSA</title>
+</head>
+
+<body>
+    <section id="calc">
+        <label for="count">Number of Passagers:<br>
+            <input type="text" id="count">
+        </label>
+        <button type="button" id="btn">Click here to calculate seating!</button>
+    </section>
+    <div id="notify">
+        <p id="message"></p>
+    </div>
+    <section id="airplane">
+        <p id="airview">Aeroplane - Front</p>
+        <div id="cols">
+            <div class="col1-col3">
+                <p class="col_Name">Column A</p>
+                <table id="mytab1" class="mytable">
+
+                </table>
+            </div>
+            <div id="col2">
+                <p class="col_Name">Column B</p>
+                <table id="mytab2" class="mytable">
+
+                </table>
+            </div>
+            <div class="col1-col3">
+                <p class="col_Name">Column C</p>
+                <table id="mytab3" class="mytable">
+
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

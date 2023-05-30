@@ -1,0 +1,143 @@
+body {
+  font-size: medium;
+  font-weight: 600;
+  padding: 4%;
+}
+
+#btn {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 7%;
+  border: none;
+  background-color: rgba(237, 214, 170, 0.977);
+  border: 1.5px solid black;
+  width: 150px;
+  padding: 2px 1rem;
+  font-weight: 500;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+#btn:hover {
+  box-shadow: 0 4px 6px 0 rgba(197, 122, 122, 0.2);
+}
+
+#count {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: none;
+  border: 1.5px solid black;
+  width: 200px;
+  padding: 4px;
+  height: 2rem;
+  font-weight: 500;
+}
+
+#calc {
+  display: flex;
+  align-items: center;
+}
+
+#airview {
+  width: 100%;
+  padding: 3% 0;
+  text-align: center;
+  margin: 6% 0;
+  background-color: rgb(165, 225, 205);
+  border: 1px solid black;
+}
+
+#cols {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.col_Name {
+  background-color: rgb(165, 225, 205);
+  padding: 6px;
+  height: 2rem;
+  border: 1px solid black;
+  margin-top: 0%;
+}
+
+.col1-col3 {
+  width: 25%;
+  text-align: center;
+}
+
+#col2 {
+  width: 40%;
+  text-align: center;
+}
+
+.mytable {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid black;
+  margin-top: 1.3rem;
+}
+
+.middle {
+  background-color: orange;
+  border-collapse: collapse;
+  border: 1px solid black;
+  height: 20px;
+}
+.edge {
+  background-color: rgb(105, 180, 105);
+  border-collapse: collapse;
+  border: 1px solid black;
+  height: 20px;
+}
+
+.window {
+  background-color: rgb(30, 150, 224);
+  border-collapse: collapse;
+  border: 1px solid black;
+  height: 20px;
+}
+
+#notify {
+  position: absolute;
+  width: fit-content;
+  text-align: center;
+  margin: 4%;
+  background-color: rgb(255, 249, 212);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  visibility: hidden;
+  right: 3.2%;
+  top: 3.6%;
+}
+
+#message {
+  padding: 2px 20px;
+}
+
+@media screen and (max-width: 700px) {
+  #calc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #cols {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .col1-col3 {
+    width: 100%;
+    align-items: center;
+    margin: 4%;
+  }
+
+  #col2 {
+    width: 100%;
+    align-items: center;
+    margin: 4%;
+  }
+  #notify {
+    margin: 2.25% 10%;
+  }
+  #message {
+    padding: 1.4px 12px;
+  }
+}
