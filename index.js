@@ -36,7 +36,7 @@ function createSeating() {
   }
 
   //performing logic to arrange seating aligment
-  if (num >= 11 && num <= 200) {
+  if (num >= 1 && num <= 200) {
     let arr2 = [];
     let arr3 = [];
     let k = 0;
